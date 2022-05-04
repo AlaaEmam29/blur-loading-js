@@ -1,0 +1,31 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body
+{
+    height:100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.bg-section
+{
+   background-image: url(./bg.jpg);
+   background-position: center center;
+   background-repeat: no-repeat;
+   background-size: cover;
+    position:absolute;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height:100vh;
+z-index: -1;
+}
+.loading-screen
+{
+    color: #fff;
+    font-size:3rem
+}
